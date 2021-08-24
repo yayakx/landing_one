@@ -1,5 +1,6 @@
 # landing_one
 Landing Page sederhana yang dibuat menggunakan bootstrap 5 
+<br><b>Live</br> : https://yayakx.github.io/landing_one/
 
 Page ini dibuat menggunakan => 
 <br>. CDN Bootstrap 5
