@@ -1,0 +1,76 @@
+/* Global CSS */
+@import "https://fonts.googleapis.com/css?family=Inter";
+
+body {
+    font-family: 'Inter';
+    padding-bottom: 10px;
+}
+
+.section {
+    max-width: 80vw;
+    margin: auto;
+}
+
+.font-70 { font-size: 70px; }
+
+
+/* Head CSS */
+#head {
+    background-color:rgb(126, 194, 126);
+    border-radius: 0 0 50% 50% /100px;
+    padding-top: 15vh;
+}
+
+#head .text-left {
+    margin-top: 15vh;
+    margin-left: 5vw;
+}
+
+#head .head-phone {
+    width: 30vw;
+    margin-bottom: 50px;
+    animation: rotation 15s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+/* Option CSS */
+#option {          
+    padding-bottom: 10vh;
+}
+
+#option .card-img-top {
+    width: auto;
+    height: 300px;
+}
+
+#option .card:hover {
+    transition: 0.3s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    bottom: 5px;
+}
+
+
+
+/* Why CSS */
+
+#why {
+    height: auto;
+    background-color: rgb(231, 239, 255);
+    background-size:cover;    
+    background-repeat: no-repeat;    
+    padding-bottom: 10vh;
+}
+
+#why .font-70:hover {
+    color: black !important;
+    transition: 0.3s;    
+}
