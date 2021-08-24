@@ -30,8 +30,9 @@
             <div class="collapse navbar-collapse" id="navbarID">
                 <div class="navbar-nav ms-auto">
                     <a class="ms-2 me-2 nav-link active" aria-current="page" href="#">Home</a>
-                    <a class="ms-2 me-2 nav-link" aria-current="page" href="#">About</a>
-                    <a class="ms-2 me-2 btn btn-success text-light nav-link" aria-current="page" href="https://github.com/yayakx" target="_blank">Contact Me</a>
+                    <a class="ms-2 me-2 nav-link" aria-current="page" href="javascript: toAbout();">About</a>
+                    <a class="ms-2 me-2 btn btn-success text-light nav-link" aria-current="page"
+                        href="https://github.com/yayakx" target="_blank">Contact Me</a>
 
                 </div>
             </div>
@@ -45,7 +46,8 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto facilis, aliquid asperiores
                     obcaecati suscipit laboriosam totam est fuga cumque iusto esse. Error eveniet maxime obcaecati
                     labore quas itaque animi eius!</p>
-                <a href="https://github.com/yayakx" target="_blank" class="btn btn-success">Contact Me</a><a href="https://github.com/yayakx" target="_blank"
+                <a href="https://github.com/yayakx" target="_blank" class="btn btn-success">Contact Me</a><a
+                    href="https://github.com/yayakx" target="_blank"
                     class="me-2 ms-2 btn btn-outline-success text-light">Contact Me</a>
             </div>
             <div class="col-md-4">
@@ -135,7 +137,8 @@
                     tempore non alias repellendus fuga quam natus atque illum.</p>
             </div>
 
-            <a href="https://github.com/yayakx" target="_blank" class="btn btn-success mt-5 col-md-2 mx-auto" data-aos="fade-up">Contact Me</a>
+            <a href="https://github.com/yayakx" target="_blank" class="btn btn-success mt-5 col-md-2 mx-auto"
+                data-aos="fade-up">Contact Me</a>
 
         </div>
     </div>
@@ -144,19 +147,24 @@
         <div class="row section mb-5 mt-5 ">
             <div class="col-md-8 col text-start" data-aos="fade-down">
                 <h2>About Us</h2>
-                <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta voluptate corrupti fuga ipsa id distinctio ut culpa nulla, similique deleniti neque vel praesentium dignissimos tenetur ea debitis voluptatibus non. Aliquam?. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis accusantium quo nisi ex nihil quasi tenetur. Sed itaque, mollitia quo corporis omnis architecto ducimus maiores beatae nam saepe impedit dolore!</p>
-                <a href="https://github.com/yayakx" target="_blank" class="btn btn-success mt-3 col-md-2 mx-auto" data-aos="fade-up">Contact Me</a>
+                <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta voluptate corrupti
+                    fuga ipsa id distinctio ut culpa nulla, similique deleniti neque vel praesentium dignissimos tenetur
+                    ea debitis voluptatibus non. Aliquam?. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Facilis accusantium quo nisi ex nihil quasi tenetur. Sed itaque, mollitia quo corporis omnis
+                    architecto ducimus maiores beatae nam saepe impedit dolore!</p>
+                <a href="https://github.com/yayakx" target="_blank" class="btn btn-success mt-3 col-md-2 mx-auto"
+                    data-aos="fade-up">Contact Me</a>
             </div>
 
             <div class="col-md-4">
-                <img src="https://picsum.photos/seed/picsum2/300"  data-aos="fade-left">
+                <img src="https://picsum.photos/seed/picsum2/300" data-aos="fade-left">
             </div>
         </div>
     </div>
 
     <hr class="section">
     <p class="text-muted text-center mt-2">Copyright © Yayakx 2021</p>
-    
+
 
 
 </body>
@@ -171,6 +179,12 @@
 </footer>
 
 <script>
+    function toAbout() {
+        document.querySelector('#about').scrollIntoView({
+            behavior: 'smooth'
+        });
+    }
+
     AOS.init();
 </script>
 
